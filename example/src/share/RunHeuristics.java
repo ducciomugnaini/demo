@@ -64,7 +64,9 @@ public class RunHeuristics {
 		
 		System.out.print("Hellow git");
 		
-		System.out.print("Branch #1");
+		System.out.print("Branch #1\n");
+		Calculator myC = new Calculator(3, 4);
+		System.out.print("Res: " +myC.Sum());
 		
         /*
 		String trainingSet = "listOfInstances";  //List of instances to solve
