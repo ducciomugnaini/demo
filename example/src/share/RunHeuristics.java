@@ -61,7 +61,10 @@ import java.util.List;
 public class RunHeuristics {
 	
 	public static void main(String[] args) throws Exception{
-        
+		
+		System.out.print("Hellow git");
+		
+        /*
 		String trainingSet = "listOfInstances";  //List of instances to solve
         
 		// Path where a .txt has the list of instances to solve:
@@ -86,6 +89,7 @@ public class RunHeuristics {
         RunHeuristics.run(dirEntradaPart,dirSalida, dirSalidaPart, archivoProblemas, trainingSet, numHeuristics, repetition, graficar);
         System.out.println("Finish");
         System.out.println();
+        */
 	}
 	
 	
