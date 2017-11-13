@@ -65,6 +65,10 @@ public class RunHeuristics {
 		System.out.print("Hellow git");
 		
 		System.out.print("Branch#2\n");
+		
+		Calculator myC = new Calculator(3, 4);
+		System.out.print("Res: " + myC.Sub() + "\n");
+		
 		AdvancedCalculator AC = new AdvancedCalculator(5,6);
 		System.out.print("Res: " +AC.Pow());
 		
