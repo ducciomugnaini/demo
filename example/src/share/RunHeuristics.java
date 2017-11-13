@@ -64,6 +64,10 @@ public class RunHeuristics {
 		
 		System.out.print("Hellow git");
 		
+		System.out.print("Branch#2\n");
+		AdvancedCalculator AC = new AdvancedCalculator(5,6);
+		System.out.print("Res: " +AC.Pow());
+		
         /*
 		String trainingSet = "listOfInstances";  //List of instances to solve
         
