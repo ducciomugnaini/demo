@@ -1,0 +1,23 @@
+Applicare il versionamento git ad un intero workspace di eclipse
+
+---
+
+Per rendere funzionante un progetto vaadin clonato:
+
+1 - Reimpostare le informazioni nel pom.xml
+Enter the following values:
+Group ID 	com.vaadin
+Artifact ID vaadin-archetype-application
+Version 	8.0.0
+
+2 - Reimpostare la configurazione di Maven Debug
+https://vaadin.com/docs/v8/framework/tutorial.html
+
+---
+
+Per rendere funzionante un progetto java sicronizzato 
+Destro sul progetto
+Proprietà
+Java Build Path
+Selezionare la versione (unbounded)
+Edit -> Selezionare una versione valida
